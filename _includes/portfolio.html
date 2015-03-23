@@ -1,0 +1,21 @@
+<section id="portfolio" class="text-center">
+  <h2>Mon Portfolio</h2>
+
+  <div class="container">
+    <div class="row">
+      {% for creation in site.data.creations %}
+          <div class="wow fadeIn col-lg-3 col-sm-4 col-6" data-wow-delay="0.4s"><a title="{{ creation.title }}"><img src="{{ creation.thumbnail }}" data-path="{{ creation.path }}" class="thumbnail img-responsive"></a></div>
+      {% endfor %}
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="marker wow fadeInUp" data-wow-delay="0.4s">
+        <a href="#welcome" class="btn btn-default btn-circle btn-xl smooth">
+          <i class="fa fa-angle-double-up"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>

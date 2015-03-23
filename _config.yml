@@ -1,0 +1,9 @@
+# Site settings
+title: Vincent Beheray
+email: vincent@beheray.fr
+description: Je m'appelle Vincent Beheray et je souhaite devenir Web Designer
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://vincent.beheray.fr" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown

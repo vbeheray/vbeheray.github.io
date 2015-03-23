@@ -1,0 +1,18 @@
+- title: Moi
+  description: |
+    Je suis un lycéen de 19 ans, actuellement en terminale au sein de la
+    fillière Sciences et Technologies de l'Industrie et du Développement Durable.
+  image: /images/photo.jpg
+
+- title: Ma passion
+  description: |
+    Je suis passionné par le graphisme et particulièrement par le web-design.
+    Mon souhait est de réussir à transformer cette passion en mon métier.
+  image: /images/ps.jpg
+
+- title: Mon objectif
+  description: |
+    Afin de réaliser ce souhait, mon objectif est d'intégrer un DUT
+    Métiers du Multimédia et de l'Internet. Cette formation me permettra
+    d'appréhender de façon professionnelle et structurée le monde du web-design.
+  image: /images/mmi.jpg

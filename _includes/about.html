@@ -1,0 +1,37 @@
+<section id="about" class="text-center">
+  <h2>A propos de moi...</h2>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 col-lg-12">
+        <ul class="timeline">
+
+          {% for part in site.data.timeline %}
+          {% assign mod = forloop.index | modulo:2 %}
+          <li class="{% if mod == 0 %}timeline-inverted{% endif %}{% if forloop.last %}last{% endif %}">
+            <div class="timeline-image wow fadeInRight" data-wow-delay="0.4s">
+              <img src="{{ part.image | prepend: site.baseurl }}" alt="{{ part.title }}" />
+            </div>
+            <div class="timeline-message">
+              <h3>{{ part.title }}</h3>
+              {{ part.description }}
+            </div>
+            <div class="clearfix"></div>
+          </li>
+          {% endfor %}
+
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="marker wow fadeInDown" data-wow-delay="0.4s">
+        <a href="#portfolio" class="btn btn-default btn-circle btn-xl smooth">
+          <i class="fa fa-angle-double-down"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
