@@ -9,7 +9,7 @@
           {% for part in site.data.timeline %}
           {% assign mod = forloop.index | modulo:2 %}
           <li class="{% if mod == 0 %}timeline-inverted{% endif %}{% if forloop.last %}last{% endif %}">
-            <div class="timeline-image wow fadeInRight" data-wow-delay="0.4s">
+            <div class="timeline-image wow {% if mod == 0 %}fadeInRight{% else %}fadeInLeft{% endif %}" data-wow-delay="0.4s">
               <img src="{{ part.image | prepend: site.baseurl }}" alt="{{ part.title }}" />
             </div>
             <div class="timeline-message">
