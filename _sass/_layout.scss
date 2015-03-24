@@ -46,7 +46,7 @@ ul.timeline {
 }
 
 ul.timeline h3 {
-  padding: 15px 0px 30px 50px;
+  padding: 15px 0px 30px 30px;
 }
 
 ul.timeline li {
@@ -83,7 +83,7 @@ ul.timeline div.timeline-image img {
 
 ul.timeline div.timeline-message {
   float: right;
-  width: 250px;
+  width: 70%;
   text-align: left;
 }
 
@@ -101,7 +101,6 @@ ul.timeline:after {
     background-color: rgba(255, 255, 255, 0.9);
     z-index: 1;
 }
-
 
 @media (min-width: 555px) {
 
@@ -129,7 +128,7 @@ ul.timeline:after {
   }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 992px) {
 
   ul.timeline h3 {
     padding: 15px 0px 15px 0px;
