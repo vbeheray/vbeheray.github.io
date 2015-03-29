@@ -1,31 +1,15 @@
-- title: Test
-  thumbnail: //placehold.it/600x350/449955/FFF
-  path: //placehold.it/1024x768/449955/FFF
+- title: Introduction pour chaîne Youtube
+  thumbnail: //i.ytimg.com/vi/esmszxXVN3E/mqdefault.jpg
+  path: //www.youtube.com/embed/esmszxXVN3E
 
-- title: Test
-  thumbnail: //placehold.it/600x350/EEE
-  path: //placehold.it/1024x768/EEE
+- title: Introduction pour chaîne Youtube
+  thumbnail: //i.ytimg.com/vi/RkhAzXyuiBI/mqdefault.jpg
+  path: //www.youtube.com/embed/RkhAzXyuiBI
 
-- title: Test
-  thumbnail: //placehold.it/600x350/992233
-  path: //placehold.it/1024x768/992233
+- title: Introduction pour chaîne Youtube
+  thumbnail: //i.ytimg.com/vi/3mPmpt5JTQM/mqdefault.jpg
+  path: //www.youtube.com/embed/3mPmpt5JTQM
 
-- title: Test
-  thumbnail: //placehold.it/600x350/2255EE
-  path: //placehold.it/1024x768/2255EE
-
-- title: Test
-  thumbnail: //placehold.it/600x350/EEE
-  path: //placehold.it/1024x768/EEE
-
-- title: Test
-  thumbnail: //placehold.it/600x350/992233
-  path: //placehold.it/1024x768/992233
-
-- title: Test
-  thumbnail: //placehold.it/600x350/2255EE
-  path: //placehold.it/2048x978/2255EE
-
-- title: Vidéo d'introduction
+- title: Introduction pour chaîne Youtube
   thumbnail: //i.ytimg.com/vi/O19p7bZSR1c/mqdefault.jpg
   path: //www.youtube.com/embed/O19p7bZSR1c
